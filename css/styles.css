@@ -106,30 +106,30 @@ a {
   font-size: 25px;
 }
 
-.about {
+.aboutContent {
   display: flex;
   align-items: center;
   justify-content: space-between;
   max-height: calc(100% - 96px);
 }
-.about .left {
+.aboutContent .left {
   width: 50%;
   height: 837px;
   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/spacejoy-LhOJl195TWc-unsplash.jpg);
   background-size: cover;
 }
-.about .right {
+.aboutContent .right {
   width: 50%;
   height: 300px;
   padding-left: 73px;
   padding-right: 73px;
   margin-top: -400px;
 }
-.about .right h2 {
+.aboutContent .right h2 {
   font-size: 42px;
   margin-bottom: 70px;
 }
-.about .right p {
+.aboutContent .right p {
   font-size: 22px;
 }
 
@@ -149,10 +149,10 @@ a {
   flex-direction: column;
 }
 .blog .left .imgbox {
-  width: 536px;
+  width: 55%;
   height: 339px;
   border: solid 2px #471f00;
-  background-position: cover;
+  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
