@@ -3,10 +3,10 @@
 
 This homework assignment will:
 
-*Teach you how to set up a simple MVC project
-*Teach you how to interact with another js file
-*Display information on a page. 
-*Interact with elements with jQuery
+* Teach you how to set up a simple MVC project
+* Teach you how to interact with another js file
+* Display information on a page. 
+* Interact with elements with jQuery
 
 ## Task
 
