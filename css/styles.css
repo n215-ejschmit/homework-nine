@@ -1,0 +1,240 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-bottom: 16px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.navHolder {
+  background-color: #471f00;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 96px;
+}
+.navHolder .title {
+  border-bottom-color: white;
+  border-bottom-style: solid;
+  border-bottom-width: 4px;
+  width: 225px;
+  margin-left: 32px;
+}
+.navHolder .title p {
+  color: white;
+  font-size: 30px;
+}
+.navHolder nav {
+  width: 700px;
+}
+.navHolder nav a {
+  color: white;
+  font-size: 30px;
+  text-decoration: none;
+  padding: 30px;
+}
+
+.hero {
+  max-height: calc(100% - 96px);
+  max-width: 100%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/sidekix-media-WgkA3CSFrjc-unsplash.jpg);
+  background-position: cover;
+  background-repeat: no-repeat;
+  background-size: cover;
+  align-items: left;
+  justify-content: space-evenly;
+}
+.hero .info {
+  margin-bottom: 32px;
+}
+.hero .info h1 {
+  font-size: 76px;
+  color: white;
+  font-weight: 100;
+  padding-left: 150px;
+  padding-top: 200px;
+}
+.hero .info h3 {
+  font-size: 30px;
+  color: white;
+  font-weight: 100;
+  width: 900px;
+  padding-left: 150px;
+  padding-bottom: 20px;
+}
+.hero .info .blogButton {
+  width: 275px;
+  height: 50px;
+  margin-left: 250px;
+  border: 3px solid white;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.hero .info .blogButton span {
+  color: white;
+  font-size: 30px;
+}
+.hero .footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 380px;
+}
+.hero .footer p {
+  margin-top: -50px;
+  color: white;
+  font-size: 25px;
+}
+
+.about {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-height: calc(100% - 96px);
+}
+.about .left {
+  width: 50%;
+  height: 837px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/spacejoy-LhOJl195TWc-unsplash.jpg);
+  background-size: cover;
+}
+.about .right {
+  width: 50%;
+  height: 300px;
+  padding-left: 73px;
+  padding-right: 73px;
+  margin-top: -400px;
+}
+.about .right h2 {
+  font-size: 42px;
+  margin-bottom: 70px;
+}
+.about .right p {
+  font-size: 22px;
+}
+
+.blog {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-height: calc(100% - 90px);
+}
+.blog .left {
+  width: 50%;
+  height: 837px;
+  background-color: #707070;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+}
+.blog .left .imgbox {
+  width: 536px;
+  height: 339px;
+  border: solid 2px #471f00;
+  background-position: cover;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.blog .left .imageOne {
+  background-image: url(../images/pexels-max-vakhtbovych-6301168.jpg);
+}
+.blog .left .imageTwo {
+  background-image: url(../images/steven-ungermann-Aac7IlKnYX8-unsplash.jpg);
+}
+.blog .right {
+  width: 50%;
+  height: 300px;
+  padding-left: 73px;
+  padding-right: 73px;
+  margin-top: -400px;
+}
+.blog .right h2 {
+  font-size: 42px;
+  margin-bottom: 50px;
+}
+.blog .right p {
+  font-size: 22px;
+}
+.blog .blogDays {
+  margin-top: -20px;
+}
+.blog .blogDays .dayTwo {
+  margin-top: 50px;
+}
+
+.contact {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-height: 98%;
+}
+.contact .left {
+  width: 50%;
+  height: 837px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/pexels-cup-of-couple-6177573.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.contact .right {
+  width: 50%;
+  height: 300px;
+  padding-left: 73px;
+  padding-right: 73px;
+  margin-top: -400px;
+}
+.contact .right h2 {
+  font-size: 42px;
+  margin-bottom: 70px;
+}
+.contact .right p {
+  font-size: 22px;
+}
+.contact .right .form {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+}
+.contact .right .form p {
+  margin-left: -350px;
+  font-size: 22px;
+  margin-top: 15px;
+}
+.contact .right .form input {
+  width: 418px;
+  height: 68px;
+  border-color: #471f00;
+}
+.contact .right .form .button {
+  margin-top: 30px;
+  padding: 10px 50px;
+  background-color: #471f00;
+  border-radius: 30px;
+}
+.contact .right .form .button span {
+  color: white;
+  font-size: 22px;
+}
+
+/*# sourceMappingURL=styles.css.map */

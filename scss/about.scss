@@ -1,0 +1,30 @@
+.about {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-height: calc(100% - 96px);
+  .left {
+    width: 50%;
+    height: 837px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+      url(../images/spacejoy-LhOJl195TWc-unsplash.jpg);
+    background-size: cover;
+  }
+
+  .right {
+    width: 50%;
+    height: 300px;
+    // background-color: antiquewhite;
+    padding-left: 73px;
+    padding-right: 73px;
+    margin-top: -400px;
+
+    h2 {
+      font-size: 42px;
+      margin-bottom: 70px;
+    }
+    p {
+      font-size: 22px;
+    }
+  }
+}

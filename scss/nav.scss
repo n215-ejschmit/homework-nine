@@ -1,0 +1,31 @@
+.navHolder {
+  background-color: #471f00;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  width: 100%;
+  height: 96px;
+
+  .title {
+    border-bottom-color: white;
+    border-bottom-style: solid;
+    border-bottom-width: 4px;
+    width: 225px;
+    margin-left: 32px;
+    p {
+      color: white;
+      font-size: 30px;
+    }
+  }
+
+  nav {
+    width: 700px;
+    a {
+      color: white;
+      font-size: 30px;
+      text-decoration: none;
+      padding: 30px;
+    }
+  }
+}
